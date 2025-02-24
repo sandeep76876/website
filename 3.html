@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: #263849;
+        color:#ddeedf;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color:#ef5a5a ;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #35bcbf;
+        color:#323643 ;
+        height: 30px;
+       
+        align-items: center;
+
+    }
+    outerbox{
+         width: 1vh; 
+        height: 300px; 
+        display:inline-block ;
+       
+    }
+    .innerbox{
+        margin: 0%;
+        padding: 0;
+        width: 32%;
+        height: 300px;
+        display: inline-flex;
+        flex-grow: 1;
+        
+        background-color: aquamarine;
+        border-style: solid ;
+        border-color: black;
+    }
+   </style>
+</head>
+<body>
+    <header>
+        Welcome to our Website
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">My Cart</a>
+        <a href="#">My Profile</a>
+        <a href="#"> Contact Us </a>
+    </nav>
+    <div class="outerbox">
+        <div class="innerbox">Content 1</div>
+        <div class="innerbox">Content 2</div>
+        <div class="innerbox">Content 3</div>
+    </div>
+
+</body>
+</html>
